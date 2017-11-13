@@ -177,6 +177,7 @@ $(document).ready(function () {
     var colors = ['rgb(10, 155, 101)', 'rgb(63, 75, 193)', 'rgb(0, 155, 212)', 'rgb(36, 40, 44)'];
     //初始背景
     $('.banner-container').css('background-color', colors[currentIndex]);
+    //指示器
     var bannerAni = setInterval(function () {
         if (currentIndex != 3) {
             currentIndex++;
