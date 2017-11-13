@@ -1,5 +1,5 @@
 //这个文件只执行交互逻辑
-$(document).ready(function () {
+window.onload = function () {
     //menu
     //清除topbar下拉列表
     function clearTopbarDropdown() {
@@ -223,5 +223,5 @@ $(document).ready(function () {
             $('.banner-tab').children().eq(currentIndex).addClass('active').siblings().removeClass('active');
         }, 2000)
     });
-});
+};
 // (function () {})();
